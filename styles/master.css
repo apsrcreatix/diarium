@@ -1,0 +1,137 @@
+/*css*/
+/*
+
+
+font-family: 'Montserrat', sans-serif;
+
+font-family: 'IBM Plex Mono', monospace;
+
+
+    #25CCF7
+    #1B9CFC
+    #3B3B98
+    #182C61
+
+
+
+*/
+*{
+font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+/**/
+html{
+  background: #4776E6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #8E54E9, #4776E6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #8E54E9, #4776E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+height: 100%;
+}
+h1,h2,h3,h4 {
+  font-family: 'IBM Plex Mono', monospace;
+
+}
+input{
+  color: black;
+  border: 2px dotted #CAD3C8;
+  padding: 5px;
+  border-radius: 2px;
+  font-size: 16px;
+}
+header{
+  margin: 5px;
+  padding: 15px;
+}
+nav{
+  padding: 15px;
+}
+main {
+padding: 15px;
+  margin-top: 30px;
+}
+label{
+  padding: 2px;
+  margin-bottom: 10px;
+}
+hr {
+  background: #E0EAFC;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  height: 5px;
+  border:none;
+
+}
+a:visited,a,a:hover,a:default,a:active,a:disabled{
+  text-decoration: none;
+  border:2px solid white;
+  margin: 5px;
+  display: inline-block;
+  padding: 5px;
+}
+ul>li{
+  display: inline-block;
+}
+footer {
+  bottom: 0;
+  display: inline-block;
+  padding-left: 15px;
+}
+textarea{
+  background: whitesmoke;
+  color:white;
+  border: 2px white solid;
+}
+/*CLASSES*/
+.success{
+  background:transparent;
+  border:2px solid white;
+  color: white;
+  font-size: 18px;
+}
+.design-border{
+  border-left:2px dotted #CAD3C8;
+  border-top:2px dotted #CAD3C8;
+  margin-bottom: 5px;
+}
+.no-border{
+  border: none;
+}
+/*  IDs */
+#registrationForm{
+padding: 5px;
+padding-left: 30px;
+}
+#loginForm{
+  display: inline-block;
+padding: 5px;
+padding-left: 30px;
+width:100%;
+}
+#main-content{
+  text-align: center;
+  border-top: 1em dotted whitesmoke;
+  border-bottom: 1em dotted whitesmoke;
+  position: fixed;
+  padding: 2%;
+  width:95%;
+  left: 0;
+  right: 0;
+}
+#main-content input,textarea {
+  color: white;
+  width: 50%;
+  border: 3px white solid;
+  background: transparent;
+}
+#posts{
+  border: 3px white solid;
+  padding: 5px;
+}
+#posts span {
+  padding: 5px;
+  font-size : 20px;
+}
